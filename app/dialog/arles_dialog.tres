@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="DialogicStyle" load_steps=19 format=3 uid="uid://dilqwko7minn3"]
+
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="1_e186r"]
+[ext_resource type="PackedScene" uid="uid://c1k5m0w3r40xf" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn" id="2_sv4on"]
+[ext_resource type="PackedScene" uid="uid://cy1y14inwkplb" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn" id="3_qu82s"]
+[ext_resource type="PackedScene" uid="uid://cn674foxwedqu" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn" id="4_2ng3y"]
+[ext_resource type="PackedScene" uid="uid://bquja8jyk8kbr" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn" id="5_mvi1u"]
+[ext_resource type="PackedScene" uid="uid://dsbwnp5hegnu3" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn" id="6_ubiw0"]
+[ext_resource type="PackedScene" uid="uid://dhk6j6eb6e3q" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn" id="7_bjlm3"]
+[ext_resource type="PackedScene" uid="uid://cvgf4c6gg0tsy" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn" id="8_c2202"]
+[ext_resource type="PackedScene" uid="uid://lx24i8fl6uo" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn" id="9_48akn"]
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style.gd" id="10_1gu4n"]
+
+[sub_resource type="Resource" id="Resource_k4gw2"]
+script = ExtResource("1_e186r")
+scene = ExtResource("2_sv4on")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_2vfut"]
+script = ExtResource("1_e186r")
+scene = ExtResource("3_qu82s")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_scit4"]
+script = ExtResource("1_e186r")
+scene = ExtResource("4_2ng3y")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_8mx8x"]
+script = ExtResource("1_e186r")
+scene = ExtResource("5_mvi1u")
+overrides = {
+"box_size": "Vector2(800, 150)",
+"next_indicator_animation": "2",
+"next_indicator_texture": "\"res://Assets/cursor/navigation_se.png\""
+}
+
+[sub_resource type="Resource" id="Resource_q7du3"]
+script = ExtResource("1_e186r")
+scene = ExtResource("6_ubiw0")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_f46xo"]
+script = ExtResource("1_e186r")
+scene = ExtResource("7_bjlm3")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_guohc"]
+script = ExtResource("1_e186r")
+scene = ExtResource("8_c2202")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_lwyvw"]
+script = ExtResource("1_e186r")
+scene = ExtResource("9_48akn")
+overrides = {}
+
+[resource]
+script = ExtResource("10_1gu4n")
+name = "arles_dialog"
+base_overrides = {}
+layers = Array[ExtResource("1_e186r")]([SubResource("Resource_k4gw2"), SubResource("Resource_2vfut"), SubResource("Resource_scit4"), SubResource("Resource_8mx8x"), SubResource("Resource_q7du3"), SubResource("Resource_f46xo"), SubResource("Resource_guohc"), SubResource("Resource_lwyvw")])
+metadata/_latest_layer = 3

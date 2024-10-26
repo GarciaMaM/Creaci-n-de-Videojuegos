@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://20x6wmge08ml"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_eqv2q"]
+[ext_resource type="Texture2D" uid="uid://4tf0um5nt57a" path="res://Assets/backgrounds/arles room1.png" id="2_5r818"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_eqv2q")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+top_level = true
+use_parent_material = true
+
+[node name="room_bg" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+auto_translate_mode = 2
+light_mask = 227
+visibility_layer = 1023
+position = Vector2(1014, 536.5)
+scale = Vector2(1.59063, 1.50139)
+texture = ExtResource("2_5r818")
+
+[node name="black_bg" type="ColorRect" parent="ParallaxBackground"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1820.0
+offset_bottom = 720.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0, 0, 0, 1)

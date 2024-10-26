@@ -1,0 +1,34 @@
+arles_character: Vagué.\
+Fui de casa en casa por bastantes años.\
+Hasta que fuí lo suficientemente mayor como para no necesitar a los demás
+arles_character: Cuando uno pasa tantos años cambiando de lugar para vivir, aprendes a no apegarte.\
+Fue como si mis emociones se apagaran.
+arles_character: Justo como en las películas antiguas\: todo se volvió a blanco y negro.\
+Y yo no podía hacer nada para cambiar mi miserable vida.
+user_character: ¿Fue mejor que estar con tu madre?
+[wait time="2.5"]
+- Si, en definitiva
+	arles_character: Necesitaba salir del aire viciado que era el lugar que yo llamaba hogar, donde estaba esa mujer.
+- Ja. No lo creo.
+arles_character: Pero mi vida no dejo de ser lo mismo\: palabras hirientes, furia, impotencia. Lo que cambió fue la persona que recitaba esas palabras.
+arles_character: Las noches solían ser frías.\
+Las comidas solitarias.\
+Pero eso le importa poco al estado.
+arles_character: Ellos sólo veían un niño fuera de las calles.
+arles_character: ¿Ellos qué saben?
+[wait time="5.0"]
+arles_character: Aún así.\
+La vida no fue tan cruel conmigo, depués de todo me dejo cruzarme en su camino.
+user_character: ¿Su camino?
+[signal arg="show_school_bg"]
+arles_character: Si. Dentro de toda la oscuridad y desilusión que es mi vida, pude obtener un rayo de luz.
+arles_character: Imaginalo esto\:\
+Me las arreglé para conseguir entrar en la universidad; ya estaba acostumbrado a mi soledad, si bien, soy una persona que se le facilita conocer gene nueva, nunca llego a sentirme del todo conectado con la gente que conozco. \
+No he logrado crear ese vínculo con nadie.
+arles_character: En la semana de inducción, yo iba caminando al salón, sin realmente ver a la gente que me rodeaba.\
+Excepto a una.
+arles_character: Aún entre la multitud, destacaba. Había algo que te obligaba a mirarla.\
+Su andar seguro, el semblante de su rostro. \
+Y sin duda, era muy hermosa.
+- Quiero saber más de ella.
+- Puedo vivir observandola a la distancia.

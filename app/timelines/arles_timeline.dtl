@@ -1,0 +1,17 @@
+[wait_input]
+arles_character: ¿Tienes algo que te persiga por las noches, robandote el sueño?
+user_character: ...
+arles_character: No?
+...
+arles_character: Me alegra escuchar eso.
+arles_character: Y yo?
+arles_character: Por supuesto. Por eso la pregunta.
+arles_character: ¿Quieres escuchar más?
+[wait_input]
+- Me gustaría escuchar más.
+	[signal arg="begin_story"]
+	jump infance_timeline/
+- No. Pero gracias.
+	[signal arg="not_begin"]
+	arles_character: Sabia decisión.
+	arles_character: Fue bueno hablar contigo.

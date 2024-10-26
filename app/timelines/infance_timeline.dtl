@@ -1,0 +1,39 @@
+arles_character: Si te preguntara por tu infancia, podrías sonreír recordando alguna anecdóta tonta, o sentir nostalgia.
+arles_character: Si me lo preguntaras a mí. Mi respuesta es clara.
+[signal arg="show_room_bg"]
+ania_character: Eres un inútil. Cuando te veo no puedo dejar de pensar lo estúpida que fuí.\
+No quiero ver más tu horrible rostro. ¿Porqué sigues aquí? ¿No puedes desaparecer?\
+Arruinaste mi vida
+[wait time="2.5"]
+arles_character: Ahora que lo digo en voz alta, resulta más deprimente de lo que recuerdo.
+arles_character: Uno supondría que el instinto de una madre sería proteger a su decendencia. Pero este no fue el caso.
+arles_character: Estaba claro en mi situación que solo tenía dos opciones
+- Rebelarme contra mi madre
+	arles_character: Un día decidí responder a sus constantes críticas, pero sólo recibí algo peor.
+	arles_character: Como cualquier otro día ella estaba ebria, día a día intentaba ahogar sus penas en alcohol.\
+En cuanto me acerqué un poco a ella comenzó lo que encontrara a su paso.
+	ania_character: Desaparece de mi vida, no deseo verte más.\
+Sólo existen en este mundo por mi estupidez
+	arles_character: "Detente", me decidí a interrumpir su desplante de furia mientras me refugiaba detrás de las paredes que separaban los cuartos
+	arles_character: "¿Porqué siempre repites lo mismo? ¿Qué te he hecho yo? ¿Por qué me tratas de esta manera?".
+	arles_character: Mi respuesta debió tomarla por sorpresa. Cuándo termine de hablar soltó una carcajada.
+	ania_character: Preguntas que has hecho para merecer esto? Viniste a este mundo, sólo para arruinarme, ve donde estoy hundida. \
+Tengo que jugar a ser tu madre y fingir que te amo, cuando sólo siento repulsión en contra de ti.
+	ania_character: Yo tenía un futuro brillante, una vida llena de oportunidades, hasta que apareciste como un parasito.
+	ania_character: No te atrevas a volver a cuestionarme. Guarda silencio y escucha atentamente.
+- Seguir escuchando las críticas
+	arles_character: Nunca podría hacer nada en contra de ella.\
+Era la persona más importante para mí, o al menos lo fue durante una gran parte de mi vida, supongo.
+	arles_character: No le cuesioné sus comentarios.\
+Los tome como una verdad absoluta.
+[signal arg="hide_room_bg"]
+arles_character: Aún así, no la culpo. No recuerdo mucho de ella, más álla de estas palabras.
+user_character: ¿Acaso murió?
+arles_character: No.
+arles_character: Pero la vida nos separó.
+user_character: Qué pasó después?
+arles_character: ....
+[wait time="2.4"]
+[signal arg="end_infance_tl"]
+jump school_timeline/
+[text_input]
