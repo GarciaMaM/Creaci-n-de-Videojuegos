@@ -1,0 +1,67 @@
+narrador_character: Mi nombre es Arles y llevó meses internado en una especie de hospital psiquiatrico, después de lo pasado aquella noche, parece ser que quieren determinar que tan mal esta tu cerebro antes de decidir que va a pasar.
+narrador_character: Cuando me ingresaron, también explicaron la dinámica de la clínica\: durante el tiempo necesario tengo que llevar un seguimiento en sesiones de terapia con los doctores asignados.
+narrador_character: En esas sesiones siempre terminó hablando de lo que quiera sin darles nada que les ayude a entender mis pensamientos.
+narrador_character: No entiendo cómo fuí a terminar aqui.
+narrador_character: A veces hacen sesiones tontas repletas de actividades que buscan distraernos de la existencia que llevamos. Algunas veces me gusta caer en la trampa y participo en esas actividades, pero no siento que me ayuden, así que lo evito.
+narrador_character: El día de hoy, hace poco escuché que los guardias me indicaban que la sesión de hoy estaba por comenzar, así que comienzo a caminar en dirección a la horrible habitación.
+[wait time="1.0"]
+narrador_character: Cuando llego me doy cuenta de que hay una nueva médica. Han ido cambiando a mi doctor al menos unas dos veces a la semana dede que llegué, cosa que causa un dolor de cabeza.
+narrador_character: Es díficil no poder controlar a que persona voy a ver del otro lado de la mesa.
+unknown_character: Buen día.\
+¿Cómo se encuenta en día de hoy?
+narrador_character: La pregunta es rutina, bien podría decirle a esta mujer que quiero darme un tiro y su única respuesta podría ser un monótono excelente.
+arles_character: Bien. El clima del día de hoy es excelente.
+unknown_character: Muy bien. \
+Desde ahora yo seré la que lleve sus sesiones, soy la doctora Brennan. Espero que podamos lograr avanzar juntos.
+narrador_character: Notas como no dice la palabra doctor o psiquiatra, pero si deja claro que ella esta a cargo.
+arles_character: ¿Su familia es irlandesa?
+\doc_character: Así es. Aunque ya hace varias generaciones de eso que la sangre ya esta bien diluida con la americana.
+arles_character: Vaya, esa si es una coincidencia. Mi padre también era de Irlanda.
+\doc_character: Nada fuera de lo común dentro de este país lleno de inmigrantes.
+arles_character: Tal vez tenga razón pero aún así me gusta pensar que es una agradable coincidencia.
+narrador_character: Noto como su rostro me mira con frialdad.
+arles_character: ¿Algo la molesta?
+\doc_character: No, es sólo que me parece fasinante que en el tiempo que lleva aquí no hayamos podido dar un diagnostico que le sirva a la corte para dar una resolución de la sentencia.
+- Es que nadie de aquí me resulta agradable.
+	set {Honestidad} += true
+	set {honestidad_d1} = true
+	arles_character: Es que nadie aquí me resulta agradable.\
+Es díficil para mí hablar de estas cosas, ¿me comprende?
+	narrador_character: Ella sonríe cosa que hace que su rostro se transforme y resulta recomfortante el cambio.
+	\doc_character: Si, pero le aseguro que en esta institución estamos capacitados para brindarle la ayuda que necesite.
+	arles_character: Bueno, usted entendera, pero esta no es la primera vez que escucho esa promesa. Así que no puedo volver a fiarme de la palabra del estado.
+	\doc_character: Y cuándo la escucho por primera vez?
+	arles_character: Perdóneme, pero necesitaria que nos tuviesemos más confianza para poder hablar de eso.
+	\doc_character: Comprendo pero, ¿de qué le sirve guardarse esa información sólo para usted?
+	arles_character: Me gusta lamer mis propias heridas, si no le molesta. La mía ha sido una existencia lamentable eso tengalo por seguro.
+	\doc_character: Porqué no me cuenta que tan lamentable ha sido.
+	narrador_character: El reloj de su muñeca emite un sonido. Sonrio igual que ella antes de contestarle.
+	arles_character: Creo que ya tendremos tiempo para hablar de eso. Por el día de hoy, nuestro tiempo ha terminado, no es así?
+	narrador_character: Ella no responde, solo señala la salida y me indica que abandoné la sala.
+- ¿Cree que usted pueda sacarme la verdad?
+	set {honestidad_d1} = false
+	arles_character: ¿Cree que usted pueda sacarme la verdad?
+	\doc_character: Puede tener seguro que intentaré ayudarle.
+	arles_character: Doctora, no diga esas cosas porqué hace que mi corazón se acelere.
+	narrador_character: Llevo las manos al pecho y hago una mueca de sufrimiento para darle un aire teatral al desplante.
+	\doc_character: Ahora veo que usted va a ser dificil.
+	narrador_character: Mis manos vuelven a mis muslos y alzo mis hombros mientras respondo.
+	arles_character: Supongo que se llevo el premio gordo.
+	\doc_character: Me dirá algo de usted hoy?
+	arles_character: No me ha preguntado nada aún doctora.
+	\doc_character: ¿Porqué esta aquí? Puedo ver que claramente usted no sufre de un padecimiento como el resto de los pacientes, pero aún así dejo que lo trajeran aquí en lugar de ir directo a cumplir su condena. ¿Porqué?
+	arles_character: Vaya que es directa doctora. \
+Esa es una excelente pregunta, pero me temo que eso es información confidencial.\
+Y usted lo sabe tan bien como yo.
+	\doc_character: Entonces es un hecho que no me dirá nada hoy.
+	narrador_character: Habla en un tono de resignación y puedo ver como escribe algo en una libreta que tenía sobre sus piernas.
+	arles_character: Pero claro que no. Ya le he dicho algo.\
+Mi padre es un irlándes, al igual que el suyo.
+	narrador_character: Después de contestarle, su reloj de muñeca emite un sonido y es obvio para ambos que hemos terminado.\
+Sonrio y me pongo de pie para contestarle.
+	arles_character: Gracias por perder su tiempo conmigo doctora. No se arrepentirá
+narrador_character: Salgo y regreso a mi cama designada dentro de los dormitorios.\
+Solo hileras de camas separadas por un metro una de la otra y ademas de la cama cada interno tiene una especie de baúl para poner sus propiedades.
+narrador_character: Al igual que el resto de los días que llevo aquí, paso el día recostado en mi cama con la pequeña pelota que me dieron y la lanzo hacia el techo por el resto del día.
+[wait time="3.0"]
+jump day2_timeline/

@@ -1,0 +1,22 @@
+[text_input text="¿Cuál es tu nombre?" var="UserName"]
+narrador_character: Estas en tu primera semana de trabajo en una nueva clínica mental.\
+Aunque parece una tarea bondadosa, se necesita demasiado estomágo para soportar el dolor de los pacientes mentales, siempre atormentados por sus propias maquinaciones, demasiado asustados incluso de su propia sombra.
+narrador_character: El resto del equipo te deja hacerte cargo de las sesiones de terapia del día de un paciente que ya tiene astante tiempo dentro de la institución, básicamente escuchar incoherencias por parte de los pacientes, ya que siempre desvariaban durante horas y horas.
+narrador_character: Debido a su caracter, se la pasa todos los días en su cama, sin incolucrarse en las pocas actividades que se ofrecen para ayudarlos a distraerse un poco de sus problemas.\
+Y no los culpo. La verdad no vale la pena participar.
+narrador_character: Lo esperas en la sala destinada a las sesiones, una habitación con un escritorio y dos sillas, lo que es más que suficiente.
+narrador_character: El jóven que atraviesa la puerta, lleva las manos dentro de los bolsillos y se sienta directamente en la silla para encararte mientras recarga los codos en el escritorio. Como mucho tendrá 27 años.
+user_character: Bienvenido a su sesión, a partir de hoy yo llevaré sus sesiones. Mi nombre es\:\
+Espero serle de ayuda.
+narrador_character: Bueno, no lo creo, pero lo podremos averiguar.
+user_character: Podría decirme su nombre por favor.
+arles_character: Arles, como la ciudad donde Van Gogh vivió por una temporada.
+user_character: Gracias. Podría contarme, ¿como es que terminó aquí?
+arles_character: Estoy seguro de que eso lo podría averiguar leyendo los papeles de mi expediente
+user_character: Aún así me gustaría escucharlo de usted.
+narrador_character: Después de escuchar ese comentario, lo escuchas ahogar una risita y relaja su postura contra la silla. Habla después de unos segundos
+arles_character: Bueno, eso nos llevará tiempo.
+narrador_character: Después de pensar un poco respondes.
+user_character: Eso es algo que abunda por aquí, ¿no?
+narrador_character: Eso lo hace reír brevemente, después guarda silencio y puedes ver como su mirada esta perdida en los recuerdos durante unos minutos hasta que al fin se dispone a hablar.
+jump arles_timeline/

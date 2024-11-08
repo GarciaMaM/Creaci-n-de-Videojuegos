@@ -1,17 +1,9 @@
-[wait_input]
-arles_character: ¿Tienes algo que te persiga por las noches, robandote el sueño?
-user_character: ...
-arles_character: No?
-...
+arles_character: ¿Hay algo que te persiga por las noches, robandote el sueño?
+user_character: No, no lo creo.
 arles_character: Me alegra escuchar eso.
+narrador_character: Años en la formación te han enseñado que cuando una persona hace una pregunta así de personal es porque espera que se le haga la misma pregunta, es una invitación.
+user_character: Y usted?
 arles_character: Y yo?
-arles_character: Por supuesto. Por eso la pregunta.
-arles_character: ¿Quieres escuchar más?
-[wait_input]
-- Me gustaría escuchar más.
-	[signal arg="begin_story"]
-	jump infance_timeline/
-- No. Pero gracias.
-	[signal arg="not_begin"]
-	arles_character: Sabia decisión.
-	arles_character: Fue bueno hablar contigo.
+[signal arg="begin_story"]
+jump infance_timeline/
+[signal arg="not_begin"]

@@ -1,0 +1,49 @@
+arles_character: La mía debío ser la llegada más triste de cualquier universitario, o al menos eso me dijeron. No hubo despedidas, ni llantos ni llegaron más personas conmigo. Simplemente llegué una maleta llena de ropa y nada más al que sería mi dormitorio por cuatro años.
+user_character: ¿Quién te dijo que había sido triste?
+arles_character: Mi compañero de habitación, se compadeció de mi y me invitó a cenar para que no comiera solo. Pero después de eso no volvió a hablarme, quizás no le agradaba y ya.
+narrador_character: Observas como vuelve a envolverse con sus brazos mientras habla.
+arles_character: En la semana de inducción, mientras caminaba al salón indicado, en el camino una chica se me acercó alegando estar perdida.
+- Ignorarla.
+	arles_character: No me agradó la forma en la que se acercó a mí, así que la ignoré y seguí caminando
+	arles_character: Me perdí el primer periodo y cuando encontré el salón interrrumpí al profesor en la introducción que debería de recitar todos los años.\
+Tomé un lugar al fondo del salón ya que no quería que me viera demasiado.
+- Caminar juntos
+	arles_character: Cuando al fin llegamos al lugar que buscabamos, ella se alejó de mí para hablar con las demás chicas que ya estaban ahí y yo me quedé sentado en una banca. Cuando pasaron unos minutos unos chicos se presentaron y logramos hacer una conversación acerca del beisbol.
+	arles_character: Viendo que estabamos en la misma situación nos hicimos compañia en silencio.\
+Vale más perderse mientras otra persona este a tu lado.
+	arles_character: Aprendí gracias a mis trabajos de mesero en bares deportivos, ya que era el único lugar donde me contrataban. Y entre más converses con los clientes más consumiran y si es entretenida la plática consigues que te den una propina que podría ser decente.
+	arles_character: Esos temas se volvieron monotomía en mi día a día, podía conversar sin realmente prestar atención. \
+Mientras tanto estaba divagando entre la gente que estaba a mi alrededor.
+	arles_character: Repace los rostros que me rodeaban, buscando observarlos sin que tuviesen oportunidad de cambiar sus expresiones.\
+Se aprende mucho de las personas cuando observas sus interacciones. Es fácil reconocer a los que hablan sin sentir lo que dicen.
+	user_character: ¿También lo aprendiste siendo mesero?
+	arles_character: Si, porque ves a cualquier tipo de persona cuando eres mesero y usualmente es cuando te tratan de manera autentica.
+	arles_character: Estuvimos hablando por largo rato hasta que llego el profesor. Nos tomó unos minutos guardar silencio porque estaban en medio de un debate sobre el partido del sabado.
+[signal arg="show_school_bg"]
+arles_character: En la clase del tercer periodo, teníamos que hacer parejas y entrevistar a la otra persona y presentarla ante el grupo.\
+Boberías.
+user_character: ¿No salió bien?
+arles_character: Decidí esperar, pues no quería hacer la actividad con alguno de los tipos que solo sabían hablar de beisbol.\
+Mientras estaba en mi lugar llego una de las chicas y se presentó.\
+¿Puedes creerlo?
+user_character: Si, el mundo no esta lleno de personas malas.
+arles_character: Nunca hubiese ceído eso antes de ese día.
+arles_character: Ella me dijo su nombre\: Dina.\
+Algo tan simple y aún así tan bonito. Pero no tanto como ella.\
+Aunque bonita no era la palabra. Ella era hermosa
+arles_character: Tenía el cabello negro y largo, sus ojos eran verdes y su nariz estaba llena de unas adorables pecas que se esparcian un poco por sus mejillas. Su rostro era tan hermoso y su voz me reultó cautivadora.
+arles_character: Me quedé perdido en su rostro unos segundos hasta que caí en cuenta de que debía dacirle mi nombre o parecería un rarito.\
+Así que me le dije mi nombre.
+arles_character: Después me pidió entrevistarme.
+- Aceptar
+	arles_character: No pude negarme y accedí, porque yo quería conocerla más y al parecer ella a mí.
+- Negarse
+	arles_character: ¿Cómo podría aceptar? No lo merecía así que me negué.\
+Pero ella insistió, diciendome que ya conocia a las chicas, pero ahora quería conocer al resto.
+	arles_character: Ahora sí acepte y me sentí halagado por su insistencia.
+narrador_character: Podías observar el brillo en sus ojos mientras hablaba, pero sus brazos no se soltaban de sus costados. Algo andaba mal.
+arles_character: Le molestaría si me tomara el resto del día, hace mucho que no hablo de esto con nadie y me resulta dificil continuar en este momento.
+user_character: Por supuesto, como te dije antes, algo que nos sobra aquí es tiempo.\
+Continuaremos mañana.
+narrador_character: Puedes ver como se levanta de la silla y sale de la habitación.
+jump breakday1_timeline/

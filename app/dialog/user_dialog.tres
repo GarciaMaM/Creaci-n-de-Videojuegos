@@ -60,4 +60,4 @@ script = ExtResource("10_nxwii")
 name = "user_dialog"
 base_overrides = {}
 layers = Array[ExtResource("1_a4fnm")]([SubResource("Resource_dlsbw"), SubResource("Resource_rcjrl"), SubResource("Resource_dlwbs"), SubResource("Resource_uhxlx"), SubResource("Resource_4a18c"), SubResource("Resource_1ik4m"), SubResource("Resource_kbr2i"), SubResource("Resource_ojyj0")])
-metadata/_latest_layer = 3
+metadata/_latest_layer = 4

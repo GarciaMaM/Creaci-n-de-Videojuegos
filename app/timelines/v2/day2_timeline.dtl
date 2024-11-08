@@ -1,0 +1,70 @@
+narrador_character: Amaneció, para mi desgracia el día comienza muy temprano, pues aunque no recibo ninguno, todos los internos deben pasar a la ventanilla donde las enfermeras entregan los medicamentos de los internos.
+narrador_character: Como no recibo un tratamiento preescrito, espero hasta que terminan y las enfermeras me indican que puedo irme.
+narrador_character: Camino de regreso a mi cama veo a la doctora dandole instrucciones a lo que parecen ser novatos. \
+Es muy guapa, pero no es mi tipo.\
+La única mujer para mí dejó este mundo hace mucho tiempo.
+[wait time="2.0"]
+narrador_character: Nuevamente voy camino a la sala de terapias.\
+Al llegar descubro que la puerta esta cerrada así que toco la puerta con mis nudillos hasta que escucho un adelante que viene de dentro de la sala.
+arles_character: Buen día doctora.
+\doc_character: Buen día, ¿cómo se encuentra el día de hoy?
+- Tan bien como se puede estar aquí dentro.
+	set {honestidad_d2} = false
+	arles_character: Tan bien como se puede estar aquí dentro.
+	\doc_character: ¿Hay algo que le disguste?
+	arles_character: No, pero resulta aburrido estar confinado dentro de cuatro paredes.
+	\doc_character: Bueno, sé que puede ser así. Pero tmbién se que no participa en las pequeñas actividades que ofrecemos para los internos.
+	arles_character: Lo que usted no sabe es lo dificil que es tener un poco de aire fresco o de normalidad y tener que volver al aburrimiento por el resto del día.\
+Resulta desolador.
+	\doc_character: Lo tendremos en cuenta.
+- Estaba esperando nuestra reunión.
+	set {honestidad_d2} = true
+	arles_character: Estaba esperando nuestra reunión.
+	\doc_character: ¿Por qué razón?
+	arles_character: Usted me resulta fascinante. \
+¿Cómo terminó aquí?
+	\doc_character: No estamos aquí para hablar sobre mí, lo sabe bien.
+	- Usted quiere saber sobre mí y yo quiero saber sobre usted.
+		set {honestidad_d3} = true
+		arles_character: Usted quiere saber sobre mí y yo quiero saber sobre usted. \
+No me parece justo que yo tenga que contarle algo a usted sin recibir nada a cambio.
+		narrador_character: Noto como aprieta sus labios, mientras frunce el seño quizás sopesando los pros y los contras.\
+Pasa un minuto en silencio con la misma expresión en su rostro, hasta que decide responder mirandome a los ojos.
+		\doc_character: Me transfirieron aquí, una especie de castigo por parte de mi superior.
+		arles_character: ¿Qué podría tener en su contra su superior?
+		\doc_character: No es en contra de mí, contra todas las mujeres que quieren entrar en su campo.
+		arles_character: Creí que la gente así ya no existía.
+		narrador_character: Me contesta entre risas.
+		\doc_character: Le sorprendería lo que podría contarle.
+		\doc_character: Pero bueno, ya le he contado algo acerca de mí. \
+Es su turno.
+		narrador_character: Después de escuchar su respuesta me recuesto sobre la silla y coloco mis manos entrelazadas sobre mi regazo antes de responderle.
+		arles_character: Digame que quiere saber, con exactitud.
+		jump infance_v2_timeline/
+	- Cambiar el tema.
+		set {honestidad_d3} = false
+		arles_character: He visto por la mañana que estaba dandole indicaciones a unas enfermeras.\
+¿Acaso son nuevas?
+		- Usted se veía un poco exaltada.
+			arles_character: A decir verdad usted se veía un poco exaltada.
+			narrador_character: La doctora suelta un largo suspiro mientras pasa una mano por su frente.
+			\doc_character: No debería decirle esto, pero un juego de llaves se perdió durante su guardia. \
+Estaba recordandoles lo importantes que son y que deben cuidarlas bien.\
+Sé que mi voz se alzo bastante, pero de verdad no puedo creer que cometan este tipo de errores.
+			arles_character: Suena bastante serio.
+			\doc_character: Lo es, pero bueno, es problema del staff.
+		- ¿No pueden interesarme las cosas que suceden a mi alrededor?
+			narrador_character: Me toma por sorpresa la respuesta de la doctora, por lo que guardo silecio un momento.
+			arles_character: ¿Es qué acaso no me pueden interesar las cosas que suceden a mi alrededor?
+			narrador_character: El rostro de la doctora cambia con una expresión sorprendida.
+			\doc_character: No es eso.\
+Simplemente pensé que no le interesaban.
+			arles_character: No debería juzgar así a los pacientes doctora.
+			narrador_character: Ese comentario la hace sonreír.
+			\doc_character: Me disculpo.\
+Bueno, en la mañana tuvimos un incidente con la entrega de los medicamentos de los pacientes; más de tres recibieron pastillas incorrectas y otros pocos recibieron una dosis muy doble.
+			\doc_character: Es un hecho que no hay que tratar más a el staff, pero un incidente como ese no se puede dejar pasar sin una amonestación.\
+La medicación de los pacientes es parte importante de las tareas del día.
+			arles_character: Comprendo.
+	\doc_character: En fin.\
+Volviendo al tema que nos tiene aquí.

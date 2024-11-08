@@ -1,39 +1,36 @@
-arles_character: Si te preguntara por tu infancia, podrías sonreír recordando alguna anecdóta tonta, o sentir nostalgia.
-arles_character: Si me lo preguntaras a mí. Mi respuesta es clara.
+arles_character: Cuando uno recuerda su infancia usualmente se sonrie por esos recuerdos.
+arles_character: Pero yo tengo un recuerdo muy claro 
 [signal arg="show_room_bg"]
-ania_character: Eres un inútil. Cuando te veo no puedo dejar de pensar lo estúpida que fuí.\
-No quiero ver más tu horrible rostro. ¿Porqué sigues aquí? ¿No puedes desaparecer?\
-Arruinaste mi vida
-[wait time="2.5"]
+arles_character: Y es la voz de mi madre gritandome.
+narrador_character: Notas que aprieta los labios antes de continuar.
+arles_character: Ella siempre me repetía que era un inútil, que no quería volver a ver mi horrible rostro, que verme le recordaba lo estupida que fue; me pedía que desapareciera de la casa, o mejor aún, de su vida o de este mundo.
+user_character: Muy afectiva. 
 arles_character: Ahora que lo digo en voz alta, resulta más deprimente de lo que recuerdo.
 arles_character: Uno supondría que el instinto de una madre sería proteger a su decendencia. Pero este no fue el caso.
-arles_character: Estaba claro en mi situación que solo tenía dos opciones
-- Rebelarme contra mi madre
+arles_character: Estaba claro en mi situación que solo tenía una opción\:
+user_character: ¿Qué hiciste?
+- Me rebelé contra mi madre
 	arles_character: Un día decidí responder a sus constantes críticas, pero sólo recibí algo peor.
 	arles_character: Como cualquier otro día ella estaba ebria, día a día intentaba ahogar sus penas en alcohol.\
 En cuanto me acerqué un poco a ella comenzó lo que encontrara a su paso.
-	ania_character: Desaparece de mi vida, no deseo verte más.\
-Sólo existen en este mundo por mi estupidez
-	arles_character: "Detente", me decidí a interrumpir su desplante de furia mientras me refugiaba detrás de las paredes que separaban los cuartos
-	arles_character: "¿Porqué siempre repites lo mismo? ¿Qué te he hecho yo? ¿Por qué me tratas de esta manera?".
-	arles_character: Mi respuesta debió tomarla por sorpresa. Cuándo termine de hablar soltó una carcajada.
-	ania_character: Preguntas que has hecho para merecer esto? Viniste a este mundo, sólo para arruinarme, ve donde estoy hundida. \
-Tengo que jugar a ser tu madre y fingir que te amo, cuando sólo siento repulsión en contra de ti.
-	ania_character: Yo tenía un futuro brillante, una vida llena de oportunidades, hasta que apareciste como un parasito.
-	ania_character: No te atrevas a volver a cuestionarme. Guarda silencio y escucha atentamente.
-- Seguir escuchando las críticas
+	arles_character: Después comenzó a gritarme que desapareciera de su vida, porque no deseaba verme más. Antes de que pudiera seguir la interrumpi.\
+Le grité pidiendole que se detuviera, cosa que hizo, más por sorpresa, pero mi petición funcionó, después le pedí que me explicara que había hecho para merecer todo lo que me decía.
+	narrador_character: Sus brazos dejaron el escritorio y los cruzo a la altura del pecho con las manos escondidas debajo de las axilas.
+	arles_character: Y vaya que me respondió.\
+Me dijo que todo lo que había hecho para merecer ese trato era venir a este mundo. Mi llegada la había hundido en un suplicio constante y ahora tenía que jugar a ser mi madre, pero le resultaba dificil porque sólo sentía repulsión cada vez que me veía.
+	user_character: ¿Porqué? 
+	arles_character: Al parecer ella tenía altas expectativas de su vida, pero quedar embarazada de mí acabó con sus sueños, por lo que resulte siendo el culpable de ese crimen.
+	user_character: Sabes algo más de ella?
+- La seguí escuchando.
 	arles_character: Nunca podría hacer nada en contra de ella.\
 Era la persona más importante para mí, o al menos lo fue durante una gran parte de mi vida, supongo.
 	arles_character: No le cuesioné sus comentarios.\
 Los tome como una verdad absoluta.
 [signal arg="hide_room_bg"]
-arles_character: Aún así, no la culpo. No recuerdo mucho de ella, más álla de estas palabras.
-user_character: ¿Acaso murió?
-arles_character: No.
-arles_character: Pero la vida nos separó.
-user_character: Qué pasó después?
-arles_character: ....
-[wait time="2.4"]
+arles_character: No recuerdo mucho de ella, más álla de estas palabras.
+narrador_character: Ves como desvía la mirada hacia la pared más lejana.\
+Le concedes un segundo de silencio, porque nadie quiere hablar de este tipo de cosas y él se abrió demasiado fácilmente a contarte lo anterior, usualmente tomaría unas semanas, pero él fue directo y consiso. Tomas nota de este suceso.
+user_character: Y qué pasó después?
 [signal arg="end_infance_tl"]
 jump school_timeline/
 [text_input]

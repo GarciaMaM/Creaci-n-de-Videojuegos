@@ -1,0 +1,98 @@
+\doc_character: Comencemos por su padre.\
+¿Qué me puede contar sobre él?
+arles_character: Lamento decepcionarla, pero no tengo nada más que contarle sobre ese hombre.
+narrador_character: La doctora hace un gesto de  sufrimiento.
+\doc_character: Creí que habiamos llegado a un acuerdo, Arles.
+narrador_character: De verdad me agrada.
+arles_character: Lo estoy respetando, pero no le puedo contar nada más sobre él porque me abandonó desde que era muy pequeño.
+arles_character: Al parecer se divorció de mi madre cuando yo tenía a lo mucho 5 años. Y desde entonces no he vuelto a saber nada de él.
+\doc_character: ¿Su madre no le hablaba sobre él?
+- Pensé que estabamos hablando sobre mi padre.
+	set {honestidad_d1} = false
+	arles_character: Pensé que estabamos hablando sobre mi padre.
+	narrador_character: Le respondo mientras me hundo un poco en mi asiento.
+	\doc_character: Es verdad, pero bueno, algo más debe saber. ¿No?
+	arles_character: Quizás en una familia más normal. Pero no en la mía.
+	\doc_character: Entonces su familia no fue normal?
+	arles_character: Pues en el esquema que nos ha presentado la sociedad desde el principio de este bello país, creo que mi familia no cumple las reglas.\
+Mi padre nos abandonó y desde ahí quedamos fuera.
+	\doc_character: ¿Por qué lo dice?
+	arles_character: Porque es verdad. No hablabamos mucho.
+	\doc_character: Si su padre se los abandonó, entonces usted tuvo que haber pasado un largo tiempo con su madre, ¿no es así?
+	- Usted se equivoca nuevamente doctora.
+		arles_character: Usted se equivoca nuevamente doctora.
+		arles_character: Aunque antes tendríamos que definir mucho tiempo, para ser precisos. Y eso no nos llevaría a ningún lado. \
+¿O sí?
+		narrador_character: Me respondió acercardonse un poco a mí mientras bajaba el volumen de su voz para hablar en susurros.
+		\doc_character: Tiene razón. Pero entonces se perdería la diversión. ¿No cree?
+		- Usted si que sabe tratar con locos, doc.
+			narrador_character: Esa respuesta me hace soltar una carcajada y no puedo evitar recargar mis antebrazos sobre el escritorio que nos separa para responderle.
+			arles_character: Usted si que sabe tratar con locos, doc.
+			narrador_character: Ahora nos estamos viendo los ojos fijamente.\
+Ella sonríe mientras me responde.
+			\doc_character: Pero usted no esta loco. Al menos no como el resto.
+			arles_character: Eso es terrible, porque tengo que estarlo si quiero sobrevivir.\
+¿Pero quiero sobrevivir?
+		- No responder.
+			narrador_character: Decido guardar silencio por un momento ya que esto me resulta muy estimulante y debo mantener la cabeza fría.
+			\doc_character: Veo que se ha quedado mudo.
+			arles_character: Es algo que me pasa a menudo. Le pido una disculpa.
+			\doc_character: No tiene nada de que disculparse.
+	- Si. Pero eso no significa que hablaramos.
+		narrador_character: Suelto un largo suspiro para callar mis pensamientos.
+		arles_character: Si. Pero eso no significa que hablaramos.\
+Uno puede pasar tiempo con alguien y no hablar, o hablar de nada.\
+Justo como hacemos ahora.
+		narrador_character: La doctora ahoga una risa.
+		\doc_character: En eso se equivoca.
+	narrador_character: El reloj de la doctora timbra y ella sonrie.
+- No mucho.
+	set {honestidad_d1} = true
+	arles_character: No, mi madre no solía hablar demasiado sobre él. \
+En realidad mi madre no hablaba sobre nada. \
+Y mucho menos conmigo.
+	narrador_character: Puedo ver como la doctora anota algo en su libreta.
+	\doc_character: ¿Crees que tuviera alguna razón?
+	- Si.
+		narrador_character: Tomo una fuerte bocanada de aire y la dejo salir lentamente.
+		arles_character: Si. Pero de momento no deseo hablar sobre eso. \
+Espero me comprenda.
+		narrador_character: Ella cierra su libreta me ve directamente.
+	- No una. Varias.
+		narrador_character: Pongo mis manos entralazadas en el filo del escritorio para distraerme de lo que voy a decir.
+		arles_character: Según mis recuerdos, no había una sola razón, sino varias.
+		narrador_character: Apreto mis manos hasta que los nudillos cambian de color mientras guardo silencio.
+		narrador_character: Puedo sentir como la doctora duda si presionarme o no, mientras yo observo mis manos.
+		\doc_character: ¿Me podría contar alguna?
+		- ¿Cree que de verdad le vaya a servir de algo?
+			narrador_character: Me recargo con fuerza contra el respaldo de la incómoda silla. \
+Mis manos pasan de la mesa a mi regazo.
+			arles_character: ¿Cree que de verdad le vaya a servir de algo?
+			\doc_character: Si me lo pudieras compartir me ayudaría mucho.
+			arles_character: Esta bien.
+			narrador_character: Paso mis manos por mi cabello y las dejo entrelazadas en la parte posterior de mi cabeza.
+			arles_character: Ella solía gritarme. Y gritaba mucho.\
+Me decía cosas horribles que tenía que escuchar durante horas.
+			narrador_character: Desvió la mirada hacia la única ventana de la habitación, para observar el cielo mientras hablo.\
+Estamos en el piso 3, por lo que puedo observar las copas de los árboles y el cielo despejado.
+			arles_character: Ella me repetía hasta el cansancio que era un inútil, que me odiaba y me pedía que desapareciera de su vida.\
+Ella decía que había arruinado su vida.
+			narrador_character: Guardo silencio. Cierro los ojos y puedo escuchar la voz de mi madre, puedo volver a ese momento en específico. \
+Yo estaba escondido detrás de uno de los muebles de la casa, intentando huir de los golpes.
+			narrador_character: Pero eso no la iba a detener, comenzó a arrojar todo lo que encontraba a su paso.\
+Mientras lloraba y me cubria los oidos con las manos.\
+El reloj de la doctora me saca de mis recuerdos.
+		- Podría contarle el primer recuerdo que tengo de mi madre.
+			arles_character: Yo tengo un recuerdo muy claro.\
+La voz de mi madre gritandome.
+			arles_character: Ella siempre me repetía que era un inútil, que no quería volver a ver mi horrible rostro, que verme le recordaba lo estupida que fue; me pedía que desapareciera de la casa, o mejor aún, de su vida o de este mundo.
+			\doc_character: Muy afectiva.
+			arles_character: Ahora que lo digo en voz alta, resulta más deprimente de lo que recuerdo.
+			arles_character: Uno supondría que el instinto de una madre sería proteger a su decendencia. Pero este no fue el caso.
+			narrador_character: El reloj en la muñeca de la doctora hace un sonido y con eso comprendo que nuestro tiempo de hoy ha terminado.
+\doc_character: Gracias por hablar conmigo.\
+Retomaremos nuestra charla mañana.
+narrador_character: No me despido de la doctora, mañana la veré después de todo.\
+Y decir adiós suena tonto.\
+Simplemente camino fuera de la sala, con dirección a la habitación con las camas.
+jump day3_timeline/
